@@ -1,8 +1,8 @@
 def reverse_each_word(string)
-array = string.split
-puts array
-array.each do |word|
+two = string.split
+puts two
+two.each do |word|
   word.reverse!
-  p array
+  p two
 end
 end

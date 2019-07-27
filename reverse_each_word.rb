@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-array = string.to_ary
+string == %w[]
 array.each do |word|
   word.reverse!
   p array

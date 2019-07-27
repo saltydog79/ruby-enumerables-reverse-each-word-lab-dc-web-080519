@@ -8,10 +8,10 @@ array_one = string.split(" ") #turn string into array
 end
 
 def reverse_each_word(string)
-  array = string.split(" ") #turn string into an array
+  array = string.split(" ") 
 array_two = []
-  array.collect do|string| #iterate over the array
-    array_two << string.reverse #reverse each word in the array
+  array.collect do|string|
+    array_two << string.reverse
   end
   array_two.join(" ")
 end
